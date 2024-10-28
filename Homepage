@@ -113,17 +113,17 @@
             PLANIVA
         </div>
         <div class="b">
-            <button class="nav_button">ABOUT</button>
-            <button class="nav_button">SERVICES</button>
-            <button class="nav_button">CONTACT</button>
-            <button class="nav_button">TESTIMONIALS</button>
+            <button class="nav_button" onclick="location.href='About'">ABOUT</button>
+            <button class="nav_button" onclick="location.href='Services'">SERVICES</button>
+            <button class="nav_button" onclick="location.href='Conatact'">CONTACT</button>
+            <button class="nav_button" onclick="location.href='TESTIMONIALS'">TESTIMONIALS</button>
         </div>
     </div>
     <div class="container2">
         <p class="font">Transforming Events with AI and Human Expertise</p>
         <br>
-        <button class="button1">SIGN-IN</button>
-        <button class="button2">GET STARTED</button>
+        <button class="button1" Onclick="location.href='Signin'">SIGN-IN</button>
+        <button class="button2" onclick="location.href='GetStarted'">GET STARTED</button>
     </div>
     <div class="imagecontainer">
         <img class="image1" src="C:\Users\Kshitiz Trigunayat\Downloads\pexels-teddy-2263436.jpg">
@@ -133,7 +133,7 @@
     <div class ="container3">
         <div class="box">
             <p class="font">What We Do?</p>
-            <p> We are a new age Event Management company who are here to take away all your stree and save your money</p> 
+            <p> We are a new age Event Management company who are here to take away all your stress and save your money</p> 
             <br>
 
         </div>
@@ -150,10 +150,10 @@
             PLANIVA
         </div>
         <div class="b">
-            <button class="nav_button">ADDRESS</button>
-            <button class="nav_button">INSTAGRAM</button>
-            <button class="nav_button">YOUTUBE</button>
-            <button class="nav_button">EMAIL</button>
+            <button class="nav_button" onclick="location.href='Address'">ADDRESS</button>
+            <button class="nav_button" onclick="location.href='Instagram'">INSTAGRAM</button>
+            <button class="nav_button" onclick="location.href='Youtube'">YOUTUBE</button>
+            <button class="nav_button" onclick="location.href='Email'">EMAIL</button>
 
 </body>
 </html>
