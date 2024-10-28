@@ -4,108 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLANIVA</title>
-    <style>
-
-        .container {
-            margin-top: 48px;
-            margin-right: 188px;
-            margin-left: 188px;
-            display: flex;              
-            align-items: center;          
-            gap: 385.36px; 
-        }
-        .container3 {
-            margin-top: 80px;
-            margin-right: 188px;
-            margin-left: 188px;
-            display: flex;       
-        }
-        .imagecontainer {
-            margin-top: 48px;
-            margin-right: 188px;
-            margin-left: 188px;
-            display: flex;              
-            align-items: center;          
-            gap: 22px; 
-        }
-        .imagecontainer2 {
-            margin-top: 48px;
-            margin-right: 188px;
-            margin-left: 990px;
-            display: flex; 
-            justify-content: flex-end;
-        }
-        .a {
-            width: auto;
-            font-size: 20px;
-            align-items: center; 
-        }
-        .b {
-            display: flex;
-            align-items: center; 
-            gap: 60px;
-            color: black;
-        }
-        .b1 {
-            display: flex;
-            align-items: flex-start; 
-            gap: 10px;
-            color: black;
-            margin-top: 80px;
-        }
-        .nav_button {
-            width: auto;
-            background-color: transparent;
-            color: black;
-            border: none;
-            font-size: 18px;
-        }
-        .font {
-            font-size: 70px;
-        }
-        .container2 {
-            margin-top: 95px;
-            margin-left: 277px;
-            margin-right: 277px;
-        }
-        .button1 {
-            width: 135px;
-            height: 37px;
-            font-size: 20px;
-            color: white;
-            background-color: #000235;
-            border-radius: 30px;
-        }
-        .button2 {
-            width: 167px;
-            height: 37px;
-            font-size: 20px;
-            color: white;
-            background-color: #000235;
-            border-radius: 30px;
-            margin-left: 50px;
-        }
-        .image1 {
-            width: 345px;
-            height: 261px;
-        }
-        .image2 {
-            width: 345px;
-            height: 261px;
-
-        }
-        .line {
-            margin-left: 188px;
-            margin-right: 188px;
-            margin-top: 48px;
-            height: 1px;
-            background-color: black;
-        }
-        .box {
-            width: 700px;
-            height: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -133,7 +32,7 @@
     <div class ="container3">
         <div class="box">
             <p class="font">What We Do?</p>
-            <p> We are a new age Event Management company who are here to take away all your stress and save your money</p> 
+            <p> We are a new age Event Management company who are here to take away all your stree and save your money</p> 
             <br>
 
         </div>
