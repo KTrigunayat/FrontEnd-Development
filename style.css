@@ -1,0 +1,119 @@
+/*Main Content MArginx*/
+header{
+    margin: 48px 188px 0px 188px;
+}
+/*navigation bar*/
+nav{
+    display: flex;
+    align-items: center;
+    gap: 375px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-items: space-evenly;
+    color: black;
+    gap:60px;
+}
+.nav_button{
+    width: auto;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+/*MAIN CONTENT*/
+section{
+    margin: 48px 188px 0px 188px;
+}
+.font{
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+.maincontainer{
+    margin: 47px 89px 0px 89px;
+}
+.servicescontainer{
+    margin: 150px 0px 0px 0px;
+}
+/*buttons*/
+.Getstarted_button{
+    width: 167px;
+    height: 37px;
+    font-size: 20px;
+    color: white;
+    background-color: #000235;
+    border-radius: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.SignIn_button{
+    width: 135px;
+    height: 37px;
+    font-size: 20px;
+    color: white;
+    background-color: #000235;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/*Image*/
+.imagecontainer {
+    margin-top: 48px;
+    display: flex;              
+    align-items: center;          
+    gap: 22px;
+}
+.image{
+    width: 345px;
+    height: 261px;
+}
+.imagecontainerservice{
+    margin-top: 48px;
+    display: flex;              
+    align-items: center;  
+    gap:20px        
+}
+.imageservice{
+    width: 165px;
+    height: 145px;
+}
+.imagebuttons{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+/*Seperation line for footer*/
+.line {
+    margin-top: 48px;
+    height: 1px;
+    background-color: black;
+}
+/*Footer*/
+footer{
+    margin: 20px 188px 0px 188px;
+}
+/*Footer navigation bar*/
+.foot{
+    display: flex;
+    align-items: center;
+    gap: 425px;
+}
+.servicescontainer1{
+    margin: 150px 0px 0px 0px;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 225px;
+    }
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}

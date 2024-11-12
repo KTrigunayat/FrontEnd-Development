@@ -1,0 +1,134 @@
+/*Reset mrgins*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+/*sidebar*/
+.sidebar {
+    background-color: #f5c7c7;
+    width: 215px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.logo{
+    margin-top: 48px;
+    letter-spacing: 5px;
+}
+/*sidebar buttons*/
+.NewEvent{
+    width: 135px;
+    height: 37px;
+    font-size: 18px;
+    color: white;
+    background-color: #000235;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.sidebarbutton{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/*Header*/
+header{
+    display: flex;
+    width: 10px;
+    height: 108px;
+}
+.profilepicture{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin: 20px 0px 0px 48px;
+}
+.username_button{
+    width: 243px;
+    height: 52px;
+    margin: 20px 200px 0px 0px;
+    font-size: 20px;    
+    background-color: #000235;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.Profile{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+/*navigation bar*/
+.nav_button{
+    width: auto;
+    height: 52px;
+    margin: 20px 0px 0px 0px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    align-items:center;
+}
+/*section*/
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+    
+.maincontent{
+    width: 341.82px;
+    height: 300px;
+    background-color: #AAD9D9;
+    margin: 48px 0px 0px 30px;
+    border-radius: 50px;
+}
+.maincontent_2{
+    width: 550px;
+    height: 300px;
+    background-color: #AAD9D9;
+    margin: 48px 0px 0px 30px;
+    border-radius: 50px;
+}
+/*Seperation line for footer*/
+.line {
+    margin-top: 48px;
+    margin-left: 30px;
+    height: 1px;
+    background-color: black;
+}
+/*Footer*/
+footer{
+    margin: 20px 0px 0px 45px;
+}
+/*Footer navigation bar*/
+.foot{
+    display: flex;
+    align-items: center;
+    gap: 550px;
+}
