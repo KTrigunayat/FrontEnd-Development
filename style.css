@@ -117,3 +117,76 @@ footer{
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
 }
+.img {
+    width: 200px;
+    height: 200px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+    
+.maincontent{
+    width: 341.82px;
+    height: 300px;
+    background-color: #AAD9D9;
+
+    border-radius: 50px;
+}
+.vendor-details {
+    display: flex;
+    gap: 50px;
+    margin-top: 48px;
+}
+
+.vendor-info {
+    max-width: 60%;
+}
+
+.vendor-image {
+    width: 650px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.enquiry-form {
+    max-width: 35%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.enquiry-form h3 {
+    font-size: 18px;
+}
+
+.enquiry-form p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.enquiry-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.enquiry-form input, .enquiry-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.enquiry-form button {
+    width: 100%;
+    margin-top: 15px;
+}
